@@ -148,6 +148,10 @@ img {
 }
 
 .section-one {
+    background-color: #2e2f42;}
+    
+
+.section-one-container {
     background-color: #2e2f42;
     background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/people-office.jpg);
     background-repeat: no-repeat;
@@ -155,14 +159,11 @@ img {
     background-size: cover;
     max-width: 1440px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.section-one-container {
-    background-color: #2e2f42;
-     padding-bottom: 120px;
+    padding-bottom: 120px;
     padding-top: 188px;
     padding-bottom: 188px;
-}
+        }
+
 
 .section-one-title {
     color: #ffffff;
@@ -220,10 +221,10 @@ img {
 
        
 .section-adwentages-link{
-    content: "";
+    /* content: "";
     width: 264px;
     border: 1px solid rgba(142, 143, 153, 1);
-    background-color: rgba(244, 244, 253, 1);
+    background-color: rgba(244, 244, 253, 1); */
     padding: 24px 100px;
 } 
 .section-advantages-icon{
