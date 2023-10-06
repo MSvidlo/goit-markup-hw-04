@@ -348,11 +348,13 @@ img {
     background-color: #2e2f42;
     padding: 100px 0;
     display: flex;
+    justify-content:center;
      
     
 }
 
-.footer-container {
+.footer-container {width: 264px;
+    height: 112px;
     }
 
 .footer-logo {
@@ -389,8 +391,10 @@ img {
     padding-top: 16px;
     max-width: 264px;
 }
-.footer-soc-media{}
-.footer-soc-media-name{color: var(--WHITE, #FFF);
+.footer-soc-media{
+    
+}
+.footer-text-2{color: var(--WHITE, #FFF);
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -399,5 +403,15 @@ img {
 .footer-soc-media-list{
     display: flex;
     align-items: center;
-    justify-content:center;
+    margin-top: 8px;
+    gap: 16px;
 }
+.footer-soc-media-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    fill: rgba(244, 244, 253, 1);
+    background-color: rgba(77, 90, 229, 1);
+    border-radius: 50%;}
