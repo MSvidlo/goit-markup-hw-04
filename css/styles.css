@@ -336,7 +336,7 @@ img {
 }
 .social-link:hover{background-color: #404bbf;}
 
-.social-link:hover{background-color: #404bbf;}
+.social-link:focus{background-color: #404bbf;}
  
 .team-title {
     color: #2e2f42;
